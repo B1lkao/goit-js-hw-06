@@ -15,3 +15,4 @@ for (let i = 0; i < ingredients.length; i += 1) {
   list.append(itemEl);
 }
 console.log(list);
+
