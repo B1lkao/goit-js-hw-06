@@ -4,5 +4,5 @@ console.log("Number of categories:", item.length);
 
 item.forEach(function (listElement) {
   console.log("Elements:", listElement.firstElementChild.textContent);
-  console.log("Category:", listElement.querySelectorAll("li").length);
+  console.log("Category:", listElement.lastElementChild("li").length);
 });
